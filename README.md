@@ -32,19 +32,15 @@ Repository containing projects and tasks completed as part of the **Thiranex Dat
 
 ## Getting Started
 
-1. Clone the repository:
+1. Clone the repository and install dependencies:
    ```bash
    git clone <repo-url>
    cd Thiranex-Data-Science-Internship
-   ```
-
-2. Install dependencies for Task 1:
-   ```bash
-   cd Task-01-Data-Cleaning-and-Visualization
    pip install -r requirements.txt
    ```
 
-3. Launch Jupyter Notebook:
+2. Launch Jupyter Notebook:
    ```bash
+   cd Task-01-Data-Cleaning-and-Visualization
    jupyter notebook task1_data_cleaning_and_visualization.ipynb
    ```
