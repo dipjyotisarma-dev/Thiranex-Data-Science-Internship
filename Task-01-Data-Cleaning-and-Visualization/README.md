@@ -17,10 +17,9 @@ This project implements an end-to-end data preprocessing pipeline focusing on da
 ## Project Structure
 - `data/`: Contains raw and preprocessed CSV datasets.
 - `task1_data_cleaning_and_visualization.ipynb`: Jupyter notebook containing the preprocessing steps, code, and visualizations.
-- `requirements.txt`: Python package dependencies.
 
 ## Usage
+Ensure dependencies from root `requirements.txt` are installed:
 ```bash
-pip install -r requirements.txt
 jupyter notebook task1_data_cleaning_and_visualization.ipynb
 ```
