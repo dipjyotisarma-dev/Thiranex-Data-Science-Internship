@@ -11,6 +11,7 @@ Repository containing projects and tasks completed as part of the **Thiranex Dat
 | **Task 1** | **Data Cleaning & Visualization** | Preprocessing pipeline: missing values, duplicates, IQR outlier treatment, One-Hot encoding, and feature scaling. | **Completed** | [Task 1 Directory](Task-01-Data-Cleaning-and-Visualization/) |
 | **Task 2** | **Predictive Modeling Using Machine Learning** | Supervised classification with Logistic Regression, Decision Tree, and Random Forest; evaluated via confusion matrices & ROC curves. | **Completed** | [Task 2 Directory](Task-02-Predictive-Modeling-Using-Machine-Learning/) |
 | **Task 3** | **Exploratory Data Analysis (EDA) Project** | Exploratory analysis on retail sales: statistical summaries, category/regional breakdowns, correlation matrix, and profit driver analysis. | **Completed** | [Task 3 Directory](Task-03-Exploratory-Data-Analysis/) |
+| **Task 4** | **Real-World Data Project (Finance)** | End-to-end credit risk classification: data cleaning, EDA, financial feature engineering, prediction with Logistic Regression & Random Forest. | **Completed** | [Task 4 Directory](Task-04-Real-World-Data-Project/) |
 
 ---
 
@@ -32,11 +33,16 @@ Repository containing projects and tasks completed as part of the **Thiranex Dat
 │   │   └── telco_customer_churn.csv                # Real-world Telco Churn dataset
 │   ├── task2_predictive_modeling.ipynb             # ML modeling notebook with confusion matrices & ROC curves
 │   └── README.md                                   # Task 2 documentation
-└── Task-03-Exploratory-Data-Analysis/
+├── Task-03-Exploratory-Data-Analysis/
+│   ├── data/
+│   │   └── sample_superstore.csv                   # Real-world Superstore sales dataset
+│   ├── task3_exploratory_data_analysis.ipynb       # EDA notebook with statistical summaries & charts
+│   └── README.md                                   # Task 3 documentation
+└── Task-04-Real-World-Data-Project/
     ├── data/
-    │   └── sample_superstore.csv                   # Real-world Superstore sales dataset
-    ├── task3_exploratory_data_analysis.ipynb       # EDA notebook with statistical summaries & charts
-    └── README.md                                   # Task 3 documentation
+    │   └── credit_scoring.csv                      # Real-world Credit Scoring dataset (Finance)
+    ├── task4_real_world_data_project.ipynb         # End-to-end ML classification notebook
+    └── README.md                                   # Task 4 documentation
 ```
 
 ---
@@ -52,15 +58,19 @@ Repository containing projects and tasks completed as part of the **Thiranex Dat
 
 2. Run any task notebook:
    ```bash
-   # Task 1
+   # Task 1 (Data Preprocessing)
    cd Task-01-Data-Cleaning-and-Visualization
    jupyter notebook task1_data_cleaning_and_visualization.ipynb
 
-   # Task 2
+   # Task 2 (Predictive Modeling)
    cd ../Task-02-Predictive-Modeling-Using-Machine-Learning
    jupyter notebook task2_predictive_modeling.ipynb
 
-   # Task 3
+   # Task 3 (Exploratory Data Analysis)
    cd ../Task-03-Exploratory-Data-Analysis
    jupyter notebook task3_exploratory_data_analysis.ipynb
+
+   # Task 4 (Real-World Applied Project)
+   cd ../Task-04-Real-World-Data-Project
+   jupyter notebook task4_real_world_data_project.ipynb
    ```
