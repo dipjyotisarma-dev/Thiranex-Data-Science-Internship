@@ -29,10 +29,9 @@ This project implements supervised machine learning classification models to pre
 ## Project Structure
 - `data/`: Contains `telco_customer_churn.csv`.
 - `task2_predictive_modeling.ipynb`: Executed Jupyter notebook with code, outputs, and performance charts.
-- `requirements.txt`: Python package dependencies.
 
 ## Usage
+Ensure dependencies from root `requirements.txt` are installed:
 ```bash
-pip install -r requirements.txt
 jupyter notebook task2_predictive_modeling.ipynb
 ```
